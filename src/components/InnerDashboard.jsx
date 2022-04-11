@@ -4,7 +4,19 @@ class InnerDashboard extends Component {
   render() {
     return (
       <Fragment>
-        <h2 className="text-center text-2xl font-bold mt-10">DashBoard Page</h2>
+        <div className=" p-20">
+            <ul className="flex justify-between">
+                <li>AIRPORT</li>
+          
+                <li>TIME</li>
+           
+            
+                <li>Arriving</li>
+
+            
+            <li>Departing</li>
+            </ul>
+        </div>
       </Fragment>
     );
   }
